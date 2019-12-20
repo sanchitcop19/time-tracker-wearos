@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/663c13bb065c5c1e9630519059f15d58/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/75db8df4c36fa18b8643ca5a627b04ed/jetified-play-services-wearable-16.0.1/AndroidManifest.xml:17:1-24:12
-MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/7df26908078c74ff4eeaf46e7b6b476c/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
@@ -44,62 +44,62 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/SanchitBatra/.
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/63647da4654da12a6f2785cfbbad8123/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
 	package
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:3:5-56
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:3:5-56
 	android:versionName
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:1-55:12
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:11:5-66
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:11:5-66
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:11:22-64
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:12:5-78
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:12:5-78
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:13:5-68
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:13:5-68
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:13:22-65
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:13:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:15:5-16:37
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:15:5-16:37
 	android:maxSdkVersion
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:16:9-35
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:15:22-78
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:15:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:17:5-78
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:17:5-78
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:17:22-76
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:17:22-76
 uses-feature#android.hardware.location.gps
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:5-90
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:5-90
 	android:required
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:64-87
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:64-87
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:19-63
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:19-63
 uses-feature#0x00020000
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:21:5-22:67
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:21:5-22:67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:22:9-41
 	android:required
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:22:42-65
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:22:42-65
 application
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:24:5-53:19
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:24:5-53:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:30:5-36:19
@@ -108,8 +108,8 @@ MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sanchi
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/663c13bb065c5c1e9630519059f15d58/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/75db8df4c36fa18b8643ca5a627b04ed/jetified-play-services-wearable-16.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/75db8df4c36fa18b8643ca5a627b04ed/jetified-play-services-wearable-16.0.1/AndroidManifest.xml:22:5-20
-MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-47
-MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-47
+MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-47
+MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-47
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/7fe0e43f5237081b22cded26a4ee8290/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
@@ -125,69 +125,69 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Sanc
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:28:9-41
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:28:9-41
 	android:icon
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:27:9-45
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:27:9-45
 	android:allowBackup
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:26:9-35
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:26:9-35
 	android:theme
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:29:9-53
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:29:9-53
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:25:9-41
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:25:9-41
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:30:9-32:53
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:30:9-32:53
 	android:value
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:32:13-51
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:32:13-51
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:31:13-62
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:31:13-62
 meta-data#com.google.android.gms.version
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:33:9-34:68
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:33:9-34:68
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/615f06b24bb3ffecb73d70c8b7574554/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/615f06b24bb3ffecb73d70c8b7574554/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:34:13-66
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:34:13-66
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:33:20-65
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:33:20-65
 activity#com.example.android.wearable.speedtracker.PhoneMainActivity
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:35:9-44:20
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:35:9-44:20
 	android:screenOrientation
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:38:13-49
 	android:label
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:37:13-45
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:36:13-46
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:36:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:39:13-43:29
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:40:17-69
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:42:17-77
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:42:27-74
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:42:27-74
 service#com.example.android.wearable.speedtracker.db.UpdateService
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:45:9-52:19
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:45:9-52:19
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:45:18-50
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:45:18-50
 intent-filter#action:name:com.google.android.gms.wearable.DATA_CHANGED+data:host:*+data:pathPrefix:/location+data:scheme:wear
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:46:13-51:29
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:46:13-51:29
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:48:17-87
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:48:17-87
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:48:25-84
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:48:25-84
 data
-ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:17-94
+ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:17-94
 	android:host
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:45-61
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:45-61
 	android:scheme
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:23-44
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:23-44
 	android:pathPrefix
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:62-92
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:62-92
 uses-sdk
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/af83585147f242818022c967dc6bd4aa/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
@@ -198,8 +198,8 @@ MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/Sanchi
 MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/663c13bb065c5c1e9630519059f15d58/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/75db8df4c36fa18b8643ca5a627b04ed/jetified-play-services-wearable-16.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/75db8df4c36fa18b8643ca5a627b04ed/jetified-play-services-wearable-16.0.1/AndroidManifest.xml:20:5-44
-MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/7df26908078c74ff4eeaf46e7b6b476c/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/7df26908078c74ff4eeaf46e7b6b476c/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
@@ -270,16 +270,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/SanchitBat
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 uses-library#org.apache.http.legacy
 ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/70e2ae5ce450eadd8512761c58d307cf/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
 	android:required

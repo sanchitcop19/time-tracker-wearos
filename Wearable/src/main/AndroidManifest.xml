@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.wearable.speedtracker.SpeedPickerActivity">
+            android:name="com.example.android.wearable.speedtracker.ProjectPickerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>

@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
-8-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+8-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml
+9-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml
 10
 11    <!-- BEGIN_INCLUDE(manifest) -->
 12
@@ -19,105 +19,105 @@
 17         requested at run time.
 18    -->
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:11:5-66
-19-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:11:22-64
+19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:11:5-66
+19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:11:22-64
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:12:5-78
-20-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:12:22-76
+20-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:12:5-78
+20-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:12:22-76
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
-21-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:13:5-68
-21-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:13:22-65
+21-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:13:5-68
+21-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:13:22-65
 22    <uses-permission
-22-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:15:5-16:37
+22-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:15:5-16:37
 23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-23-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:15:22-78
+23-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:15:22-78
 24        android:maxSdkVersion="18" />
-24-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:16:9-35
+24-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:16:9-35
 25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-25-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:17:5-78
-25-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:17:22-76
+25-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:17:5-78
+25-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:17:22-76
 26    <!-- END_INCLUDE(manifest) -->
 27
 28    <uses-feature
-28-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:5-90
+28-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:5-90
 29        android:name="android.hardware.location.gps"
-29-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:19-63
+29-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:19-63
 30        android:required="true" />
-30-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:20:64-87
+30-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:20:64-87
 31    <uses-feature
-31-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:21:5-22:67
+31-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:21:5-22:67
 32        android:glEsVersion="0x00020000"
-32-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:22:9-41
+32-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:22:9-41
 33        android:required="true" />
-33-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:22:42-65
+33-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:22:42-65
 34
 35    <application
-35-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:24:5-53:19
+35-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:24:5-53:19
 36        android:name="com.example.android.wearable.speedtracker.PhoneApplication"
-36-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:25:9-41
+36-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:25:9-41
 37        android:allowBackup="true"
-37-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:26:9-35
+37-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:26:9-35
 38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 38-->[androidx.core:core:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
 39        android:debuggable="true"
 40        android:icon="@drawable/ic_launcher"
-40-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:27:9-45
+40-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:27:9-45
 41        android:label="@string/app_name"
-41-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:28:9-41
+41-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:28:9-41
 42        android:theme="@style/Theme.AppCompat.Light" >
-42-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:29:9-53
+42-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:29:9-53
 43        <meta-data
-43-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:30:9-32:53
+43-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:30:9-32:53
 44            android:name="com.google.android.maps.v2.API_KEY"
-44-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:31:13-62
+44-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:31:13-62
 45            android:value="@string/map_v2_api_key" />
-45-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:32:13-51
+45-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:32:13-51
 46        <meta-data
-46-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:33:9-34:68
+46-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:33:9-34:68
 47            android:name="com.google.android.gms.version"
-47-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:33:20-65
+47-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:33:20-65
 48            android:value="@integer/google_play_services_version" />
-48-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:34:13-66
+48-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:34:13-66
 49
 50        <activity
-50-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:35:9-44:20
+50-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:35:9-44:20
 51            android:name="com.example.android.wearable.speedtracker.PhoneMainActivity"
-51-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:36:13-46
+51-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:36:13-46
 52            android:label="@string/app_name"
-52-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:37:13-45
+52-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:37:13-45
 53            android:screenOrientation="portrait" >
-53-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:38:13-49
+53-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:38:13-49
 54            <intent-filter>
-54-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:39:13-43:29
+54-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:39:13-43:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:40:17-69
-55-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:40:25-66
+55-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:40:17-69
+55-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:40:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:42:17-77
-57-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:42:27-74
+57-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:42:17-77
+57-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:42:27-74
 58            </intent-filter>
 59        </activity>
 60
 61        <service android:name="com.example.android.wearable.speedtracker.db.UpdateService" >
-61-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:45:9-52:19
-61-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:45:18-50
+61-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:45:9-52:19
+61-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:45:18-50
 62            <intent-filter>
-62-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:46:13-51:29
+62-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:46:13-51:29
 63
 64                <!-- listeners receive events that match the action and data filters -->
 65                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
-65-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:48:17-87
-65-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:48:25-84
+65-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:48:17-87
+65-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:48:25-84
 66                <!-- filters by Constants.PATH. -->
 67                <data
-67-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:17-94
+67-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:17-94
 68                    android:host="*"
-68-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:45-61
+68-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:45-61
 69                    android:pathPrefix="/location"
-69-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:62-92
+69-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:62-92
 70                    android:scheme="wear" />
-70-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Application/src/main/AndroidManifest.xml:50:23-44
+70-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Application/src/main/AndroidManifest.xml:50:23-44
 71            </intent-filter>
 72        </service>
 73        <!-- Needs to be explicitly declared on P+ -->

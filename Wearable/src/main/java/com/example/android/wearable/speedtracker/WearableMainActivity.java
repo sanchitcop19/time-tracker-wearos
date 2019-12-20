@@ -17,6 +17,7 @@
 package com.example.android.wearable.speedtracker;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -36,8 +37,6 @@ import androidx.wear.ambient.AmbientModeSupport;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -56,6 +55,8 @@ public class WearableMainActivity extends FragmentActivity implements
         AmbientModeSupport.AmbientCallbackProvider,
         ActivityCompat.OnRequestPermissionsResultCallback {
 
+    public static Boolean is_tracking;
+
     private static final String TAG = "WearableActivity";
 
     private static final long UPDATE_INTERVAL_MS = TimeUnit.SECONDS.toMillis(5);
@@ -68,29 +69,32 @@ public class WearableMainActivity extends FragmentActivity implements
     private static final long INDICATOR_DOT_FADE_AWAY_MS = 500L;
 
     // Request codes for changing speed limit and location permissions.
-    private static final int REQUEST_PICK_SPEED_LIMIT = 0;
+    private static final int REQUEST_PICK_PROJECT = 0;
 
     // Id to identify Location permission request.
     private static final int REQUEST_GPS_PERMISSION = 1;
 
-    // Shared Preferences for saving speed limit and location permission between app launches.
-    private static final String PREFS_SPEED_LIMIT_KEY = "SpeedLimit";;
+    private static String CURRENT_PROJECT = "com.example.android.wearable.speedtracker.extra.CURRENT_PROJECT";
 
     private TextView timeView;
+
     private View tracking;
+
     private Button start;
 
     private Boolean blink;
 
-    private Boolean is_tracking;
-
     private int mSpeedLimit;
 
-    private String time = "0:00";
+    private String time = "00:00";
 
     private Calendar trackedTime;
 
     private Timer timer;
+
+    private SharedPreferences sharedPref;
+
+
 
 
     /**
@@ -137,8 +141,8 @@ public class WearableMainActivity extends FragmentActivity implements
         // Enables Ambient mode.
         mAmbientController = AmbientModeSupport.attach(this);
 
-
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        final SharedPreferences.Editor editor = sharedPref.edit();
 
 
         /*
@@ -182,32 +186,49 @@ public class WearableMainActivity extends FragmentActivity implements
                     startTracking();
                 }
                 else {
+
+                    // save time spent
+                    int minutes = (60 * trackedTime.get(Calendar.HOUR)) + trackedTime.get(Calendar.MINUTE);;
+                    String project = sharedPref.getString(WearableMainActivity.CURRENT_PROJECT, "");
+                    int existing_minutes = sharedPref.getInt(project, 0);
+                    editor.putInt(project, minutes + existing_minutes);
+                    editor.apply();
+                    editor.remove("");
+                    editor.remove("time");
                     // stop tracking
                     reset();
-                    // save time spent
-                    // reset the timer
 
                 }
             }
         });
 
         setupViews();
+
+
+
     }
 
     private void reset(){
 
         // reset the display time
-        trackedTime.set(Calendar.HOUR, 0);
-        trackedTime.set(Calendar.MINUTE, 0);
-        trackedTime.set(Calendar.SECOND, 0);
+        trackedTime.setTime(new Date(0, 0, 0));
 
         // stop blinking
         blink = false;
         is_tracking = false;
 
+        if (tracking != null){
+            tracking.setVisibility(View.INVISIBLE);
+        }
+
         // remove the timer
-        timer.cancel();
-        timer.purge();
+        if (timer != null){
+            timer.cancel();
+            timer.purge();
+        }
+
+        changeButtonText("Start");
+
     }
 
     private void startTracking() {
@@ -222,7 +243,6 @@ public class WearableMainActivity extends FragmentActivity implements
 
                 trackedTime.add(Calendar.SECOND, 1);
                 final Date next = trackedTime.getTime();
-                System.out.println(next);
                 SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
                 final String next_time = formatter.format(next);
 
@@ -243,10 +263,18 @@ public class WearableMainActivity extends FragmentActivity implements
             }
 
         },0,1000);//Update text every second
+
+        changeButtonText("Stop");
+
+    }
+
+    private void changeButtonText(final String s){
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                start.setText("Stop");
+                if (start != null) {
+                    start.setText(s);
+                }
             }
         });
     }
@@ -254,18 +282,14 @@ public class WearableMainActivity extends FragmentActivity implements
     private void setupViews() {
         timeView = findViewById(R.id.current_time);
         tracking = findViewById(R.id.dot);
-
     }
 
     public void onSpeedLimitClick(View view) {
         Intent speedIntent = new Intent(WearableMainActivity.this,
-                SpeedPickerActivity.class);
-        startActivityForResult(speedIntent, REQUEST_PICK_SPEED_LIMIT);
+                ProjectPickerActivity.class);
+        startActivityForResult(speedIntent, REQUEST_PICK_PROJECT);
     }
 
-    private void updateSpeedInViews() {
-        timeView.setText(time);
-    }
 
     /**
      * Handles user choices for both speed limit and location permissions (GPS tracking).
@@ -273,19 +297,17 @@ public class WearableMainActivity extends FragmentActivity implements
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-        if (requestCode == REQUEST_PICK_SPEED_LIMIT) {
+        if (requestCode == REQUEST_PICK_PROJECT) {
+
             if (resultCode == RESULT_OK) {
                 // The user updated the speed limit.
-                int newSpeedLimit =
-                        data.getIntExtra(SpeedPickerActivity.EXTRA_NEW_SPEED_LIMIT, mSpeedLimit);
+                String newProject = data.getExtras().getString(ProjectPickerActivity.CURRENT_PROJECT);
 
-                SharedPreferences sharedPreferences =
-                        PreferenceManager.getDefaultSharedPreferences(this);
-                SharedPreferences.Editor editor = sharedPreferences.edit();
-                editor.putInt(WearableMainActivity.PREFS_SPEED_LIMIT_KEY, newSpeedLimit);
+                //SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+                SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putString(WearableMainActivity.CURRENT_PROJECT, newProject);
                 editor.apply();
 
-                updateSpeedInViews();
             }
         }
     }

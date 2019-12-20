@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "outputFile": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
             "map": [
                 {
                     "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/res/values-it/values.xml",

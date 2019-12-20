@@ -601,6 +601,7 @@ id action_divider
 id action_image
 id action_text
 id actions
+id add
 id adjust_height
 id adjust_width
 id alertTitle
@@ -829,7 +830,6 @@ plurals time_difference_words_minutes
 string a11y_no_data
 string a11y_no_permission
 string a11y_template_range
-string acquiring_gps
 string activity_label
 string app_name
 string buttons_rect_bottom_center
@@ -893,11 +893,10 @@ string navigation_drawer_content_description
 string not_available
 string ok
 string permission_rationale
-string speed_for_list
+string project
+string project_picker
 string speed_format
 string speed_label
-string speed_limit
-string speed_limit_header
 string status_bar_notification_info_overflow
 string time_difference_now
 string time_difference_short_days_and_hours

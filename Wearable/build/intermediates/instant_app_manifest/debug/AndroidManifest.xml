@@ -62,7 +62,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.wearable.speedtracker.SpeedPickerActivity" >
+        <activity android:name="com.example.android.wearable.speedtracker.ProjectPickerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

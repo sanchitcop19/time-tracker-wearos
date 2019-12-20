@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3b41686acc110f80ab2137ca56a22122/jetified-wearable-2.4.0/res/values-zh-rCN/values.xml",

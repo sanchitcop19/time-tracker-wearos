@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3febd05bc23d811b160d90031d35eb7b/wear-1.0.0/res/values-pt-rBR/values-pt-rBR.xml",

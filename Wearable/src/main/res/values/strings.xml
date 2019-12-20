@@ -22,14 +22,12 @@
     <string name="speed_label">Speed:</string>
     <string name="activity_label">Activity:</string>
     <string name="timestamp_label">Time:</string>
-    <string name="speed_limit">Limit: %1$d mph</string>
-    <string name="acquiring_gps">Acquiring GPS Fix ...</string>
-    <string name="speed_for_list">%1$d mph</string>
+    <string name="project">Project</string>
 
     <string name="enable_disable_gps_label">Enable Location Permission?</string>
 
     <string name="mph">mph</string>
-    <string name="speed_limit_header">Speed Limit</string>
+    <string name="project_picker">Project Picker</string>
     <string name="gps_not_available">No GPS on device. Will use phone GPS when available.</string>
     <string name="ok">OK</string>
     <string name="speed_format">%.0f</string>

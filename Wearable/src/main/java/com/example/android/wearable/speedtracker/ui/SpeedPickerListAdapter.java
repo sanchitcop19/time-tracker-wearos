@@ -25,17 +25,19 @@ import android.widget.TextView;
 
 import com.example.android.wearable.speedtracker.R;
 
+import java.util.ArrayList;
+
 /**
  * A {@link android.support.wearable.view.WearableListView.Adapter} that is used to populate the
  * list of speeds.
  */
 public class SpeedPickerListAdapter extends WearableListView.Adapter {
 
-    private int[] mDataSet;
+    private ArrayList<String> mDataSet;
     private final Context mContext;
     private final LayoutInflater mInflater;
 
-    public SpeedPickerListAdapter(Context context, int[] dataset) {
+    public SpeedPickerListAdapter(Context context, ArrayList<String> dataset) {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mDataSet = dataset;
@@ -76,7 +78,7 @@ public class SpeedPickerListAdapter extends WearableListView.Adapter {
         ItemViewHolder itemHolder = (ItemViewHolder) holder;
         TextView view = itemHolder.mTextView;
         // replace text contents
-        view.setText(mContext.getString(R.string.speed_for_list, mDataSet[position]));
+        view.setText(mDataSet.get(position));
         // replace list item's metadata
         holder.itemView.setTag(position);
     }
@@ -86,7 +88,7 @@ public class SpeedPickerListAdapter extends WearableListView.Adapter {
      */
     @Override
     public int getItemCount() {
-        return mDataSet.length;
+        return mDataSet.size();
     }
 
 }
