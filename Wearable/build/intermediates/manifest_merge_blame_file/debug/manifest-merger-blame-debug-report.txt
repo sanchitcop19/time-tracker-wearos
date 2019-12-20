@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2014 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.wearable.speedtracker"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="23"
+23-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml
+25
+26    <uses-feature android:name="android.hardware.type.watch" />
+26-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:20:5-63
+26-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:20:19-61
+27    <uses-feature
+27-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:21:5-91
+28        android:name="android.hardware.location.gps"
+28-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:21:19-63
+29        android:required="false" />
+29-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:21:64-88
+30
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:22:5-78
+31-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:22:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:23:5-68
+32-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:23:22-65
+33
+34    <application
+34-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:25:5-54:19
+35        android:allowBackup="true"
+35-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:26:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.0.0] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/AndroidManifest.xml:22:18-86
+37        android:debuggable="true"
+38        android:icon="@drawable/ic_launcher"
+38-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:27:9-45
+39        android:label="@string/app_name"
+39-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:28:9-41
+40        android:testOnly="true"
+41        android:theme="@android:style/Theme.DeviceDefault" >
+41-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:29:9-59
+42        <meta-data
+42-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:31:9-33:37
+43            android:name="com.google.android.wearable.standalone"
+43-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:32:13-66
+44            android:value="false" />
+44-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:33:13-34
+45
+46        <!-- If you want your app to run on pre-22, then set required to false -->
+47        <uses-library
+47-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:36:9-93
+48            android:name="com.google.android.wearable"
+48-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:36:23-65
+49            android:required="false" />
+49-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:36:66-90
+50
+51        <meta-data
+51-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:38:9-39:75
+52            android:name="com.google.android.gms.version"
+52-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:38:20-65
+53            android:value="@integer/google_play_services_version" />
+53-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:39:20-73
+54
+55        <activity
+55-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:40:9-47:20
+56            android:name="com.example.android.wearable.speedtracker.WearableMainActivity"
+56-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:41:13-49
+57            android:label="@string/app_name" >
+57-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:42:13-45
+58            <intent-filter>
+58-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:43:13-46:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:44:17-68
+59-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:44:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:45:17-76
+61-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:45:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.android.wearable.speedtracker.SpeedPickerActivity" >
+64-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:48:9-53:20
+64-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:49:13-89
+65            <intent-filter>
+65-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:50:13-52:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:44:17-68
+66-->/Users/SanchitBatra/Desktop/Projects/wear-os-samples/SpeedTracker/Wearable/src/main/AndroidManifest.xml:44:25-66
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+73    </application>
+74
+75</manifest>
