@@ -1,4 +1,4 @@
-com.example.android.wearable.speedtracker
+com.example.android.wearable.timetracker
 anim generic_confirmation_animation
 anim generic_confirmation_animation_interpolator_0
 anim generic_confirmation_animation_interpolator_1
@@ -796,6 +796,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout overlay_confirmation
+layout project_picker_activity
 layout single_page_nav_drawer_1_item
 layout single_page_nav_drawer_2_item
 layout single_page_nav_drawer_3_item
@@ -804,7 +805,6 @@ layout single_page_nav_drawer_5_item
 layout single_page_nav_drawer_6_item
 layout single_page_nav_drawer_7_item
 layout single_page_nav_drawer_peek_view
-layout speed_picker_activity
 layout speed_picker_item_layout
 layout watch_card_content
 layout wearable_drawer_view

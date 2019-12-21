@@ -4,7 +4,7 @@ ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/m
 INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml:1:1-6:12
 INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml:1:1-6:12
 	package
-		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml:2:5-63
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml:2:5-62
 		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml
 		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/src/main/AndroidManifest.xml
 	xmlns:android

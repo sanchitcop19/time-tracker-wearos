@@ -16,155 +16,557 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/buildConfig/androidTest/debug/com/example/android/wearable/timetracker/test/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/buildConfig/debug/com/example/android/wearable/timetracker/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/speedtracker/LocationDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/LocationDataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/speedtracker/PhoneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/PhoneApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/speedtracker/PhoneMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/PhoneMainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/speedtracker/db/LocationDbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/db/LocationDbHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/speedtracker/db/UpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/db/UpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/.transforms/0661317fe74c19eb35d06aa0567630d0/classes/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/.transforms/0661317fe74c19eb35d06aa0567630d0/classes/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/.transforms/e7e763786eb1ff7d04eedb5182918070.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/.transforms/e7e763786eb1ff7d04eedb5182918070/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/generated/source/buildConfig/androidTest/debug/com/example/android/wearable/speedtracker/common/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/generated/source/buildConfig/androidTest/debug/com/example/android/wearable/timetracker/common/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/generated/source/buildConfig/debug/com/example/android/wearable/speedtracker/common/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/generated/source/buildConfig/debug/com/example/android/wearable/timetracker/common/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/full_jar/debug/createFullJarDebug/full.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/common/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/common/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/common/LocationEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/common/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/common/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/common/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/common/LocationEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/common/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/speedtracker/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/timetracker/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/speedtracker/common/LocationEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/timetracker/common/LocationEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/speedtracker/common/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/main/java/com/example/android/wearable/timetracker/common/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/Wearable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/Wearable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/android/support/constraint/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/android/support/constraint/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/constraint/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/android/support/wearable/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/arch/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/coordinatorlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/cursoradapter/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/customview/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/documentfile/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/drawerlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/fragment/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/interpolator/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreui/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreutils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/v13/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/v4/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/lifecycle/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/lifecycle/livedata/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/lifecycle/livedata/core/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/lifecycle/viewmodel/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/loader/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/localbroadcastmanager/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/media/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/percentlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/print/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/recyclerview/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/slidingpanelayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/swiperefreshlayout/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/versionedparcelable/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/viewpager/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/wear/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/android/wearable/speedtracker/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/android/wearable/speedtracker/common/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/base/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/common/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/location/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/places_placereport/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/tasks/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/wearable/R.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/android/support/wearable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/android/support/wearable/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/coordinatorlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreui/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/coreutils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/v13/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/v13/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/v4/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/legacy/v4/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/media/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/media/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/percentlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/percentlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/recyclerview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/recyclerview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/slidingpanelayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/swiperefreshlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/wear/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/androidx/wear/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/example/android/wearable/speedtracker/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/example/android/wearable/speedtracker/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/base/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/google/android/gms/base/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/example/android/wearable/speedtracker/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/not_namespaced_r_class_sources/debug/r/com/example/android/wearable/speedtracker/common/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/androidTest/debug/com/example/android/wearable/speedtracker/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/androidTest/debug/com/example/android/wearable/timetracker/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/debug/com/example/android/wearable/speedtracker/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/debug/com/example/android/wearable/timetracker/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/0NmXNAJe0doJwSZTfqp4LOrtnIE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/1G6VTCHMr4BLzjFrDF3DQs2KCsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/2L8how7bIH9ffwSSkrdynhlBAo4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/2QX9ipIjn6nq7hglqnGHqrXxahw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/519J81DlyWn6xSeXU4fc3Hp0eYY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5U_cKu5GrVXPdLuFWaXBkavdNcY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5o61qXq6eCq3_BfSydUeo2KGEvk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/7pxWwFSYCDjEAZnrdzKyTg1Zawc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/9OasKFTHBquCSEnW7HvpOVXfkok=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/9OdlzuJffJJ91y9nnPFzDUbsNIA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/9zW5kB2n3dT_SlkqXmOpQqTGzOk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/BDDUaZUP+pViDhQZ9DeGnnsjP0Y=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Bj7HKaECTr1m3CsJN4X4PcAI4w0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Dhi9vB_DcZmCkaNbWcYvj1H_qWw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Dq0hM0qoTqxzeRZIjWKZNH3WOmg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/FRnRIpzQC2hHSWNTp7ju5EXjnb0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/IdmSt2n8aGokpm6MPbWiyu1Y310=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/KG+WqfgCkEXmL59QOdEYeAB_dxc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/MRl4FHdUMDxYsiThtkWGnnQECyw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/McaeNA1Ax22YPrWEx3LXn3opp5I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/NPtFuA131uULcEvhyoyxKs2hDFg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/OuwnCzzGgPl9wtoJD5piUGDWOCU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/QZyXAyFFphvvjiWGk8XT1FX1tYA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/WTipPqazOVMAgtn5cnam7wpwVmA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Y7wlwt7TYc6VVoWDUdWKfWoZPOA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/YQ4RnifH0bADGYBjYZ0KV5cSpMQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ZWHbyr7WaMd25Ns3ooUs1y0_7NU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/bFYL3vHr3tSx8IF6al3RcECFZ_o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/cscaZNZaofctQ6Wn_ErxkBQp7Eg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/dsDT9hsYP1VrOOwhZlCscojn1jw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/eqt_GzbqT7_BBd7GjehEHHVb+rA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/f_8noVu__vnop8zd5HcK1jeOUe0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/l+uy2uufvOO3N+HT7Dh2FxNHuDs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/m78gOTCmn4Gh4e2YyLIyp+qgQGY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/mKnsbtPQApEAOIyNEjDwVxJClm4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/nlIDYW+h4E+qzy+KpuxUMZBXwQQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/qimlgaRZCkyjg2S4umGHuHUjhvw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/riIcj8IGakell3unHGqbLL2DLkQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/rzha7a893lcof4LMIlN9tErdNfU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/sZzY2qsvkVJGLunHPO4Y_B4sStc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/tXK3ex8ulaq2H1xoKZqzee1Ab94=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/x93y+y+jNWT_HthF9Za32Mzc9Yg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/yCcKJ73LT0WrjEcaPqHrmYUVPC4=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CAzyirtQurNFCseAH3G_D1aJhm8=" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CAzyirtQurNFCseAH3G_D1aJhm8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/constraint/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/constraint/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/asynclayoutinflater/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/coordinatorlayout/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/core/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/core/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/core/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/core/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/customview/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/customview/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/customview/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/fragment/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/fragment/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreui/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/coreutils/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v13/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v13/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v13/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v13/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/legacy/v4/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/loader/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/loader/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/loader/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/media/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/media/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/media/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/media/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/percentlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/percentlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/percentlayout/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/percentlayout/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/recyclerview/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/recyclerview/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/recyclerview/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/slidingpanelayout/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/viewpager/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/viewpager/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/wear/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/wear/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/wear/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/androidx/wear/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$interpolator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$interpolator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$plurals.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$plurals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/google/android/gms/base/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/xlsSOcjxgZS4_JE4Wg+A13MjUwg=" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/xlsSOcjxgZS4_JE4Wg+A13MjUwg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/incremental/processDebugResources/resources-list-for-resources-debug.ap_.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/android/support/wearable/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ProjectPickerActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ProjectPickerActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ProjectPickerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$animator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$interpolator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$plurals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$MyAmbientCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity$SpeedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/WearableMainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/constraint/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$animator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$interpolator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$plurals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/android/support/wearable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/arch/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/asynclayoutinflater/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/coordinatorlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/cursoradapter/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/customview/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/documentfile/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/drawerlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/fragment/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/interpolator/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreui/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/coreutils/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v13/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/legacy/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/lifecycle/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/lifecycle/livedata/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/lifecycle/livedata/core/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/lifecycle/viewmodel/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/loader/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/localbroadcastmanager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/media/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/percentlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/print/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/recyclerview/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/slidingpanelayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/swiperefreshlayout/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/versionedparcelable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/viewpager/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/androidx/wear/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$anim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$animator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$bool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$interpolator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$plurals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/SpeedPickerActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/SpeedPickerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$MyAmbientCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity$SpeedState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/WearableMainActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/base/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/common/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/location/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/places_placereport/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/tasks/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/google/android/gms/wearable/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_main_activity.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_main_activity.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_activity.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_activity.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_activity.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_item_layout.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_item_layout.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/constraint/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/constraint/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/asynclayoutinflater/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/coordinatorlayout/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreui/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/coreutils/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v13/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v13/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v13/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v13/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v4/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v4/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v4/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/legacy/v4/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/media/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/media/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/media/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/media/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/percentlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/percentlayout/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/percentlayout/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/percentlayout/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/recyclerview/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/slidingpanelayout/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/wear/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/wear/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/wear/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/androidx/wear/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$integer.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$interpolator.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$interpolator.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$layout.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$plurals.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$plurals.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$style.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$styleable.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/gms/base/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/google/android/gms/base/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/android/support/wearable/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ProjectPickerActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$anim.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$animator.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$array.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$bool.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$fraction.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$interpolator.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$plurals.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$4$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$4.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$5.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$MyAmbientCallback.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity$SpeedState.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/WearableMainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/common/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter$ItemViewHolder.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/dexBuilder/debug/0/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/outputs/apk/debug/Wearable-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/outputs/apk/debug/Wearable-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ProjectPickerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/WearableMainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerListAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/res/layout/project_picker_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_item_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_item_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-tracker-wearos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/time-tracker-wearos.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,38 +588,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ProjectPickerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
-              <folding>
-                <element signature="e#6357#7224#0" expanded="true" />
-                <element signature="e#7223#7224#0" expanded="true" />
-                <element signature="e#7824#8723#0" expanded="true" />
-                <element signature="e#8427#8606#0" expanded="true" />
-                <element signature="e#8605#8606#0" expanded="true" />
-                <element signature="e#8722#8723#0" expanded="true" />
-                <element signature="e#8875#9062#0" expanded="true" />
-                <element signature="e#9061#9062#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/View.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="6597" selection-start-line="6597" selection-end-line="6597" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <state relative-caret-position="134">
+              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,67 +600,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/Activity.java">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="5592" column="17" selection-start-line="5592" selection-start-column="17" selection-end-line="5592" selection-end-column="17" />
-              <folding>
-                <element signature="e#239888#239889#0" expanded="true" />
-                <element signature="e#239942#239943#0" expanded="true" />
-                <element signature="e#301413#301414#0" expanded="true" />
-                <element signature="e#301456#301457#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/WearableMainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="75" column="109" selection-start-line="75" selection-start-column="109" selection-end-line="75" selection-end-column="109" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable/settings.xml">
+        <entry file="file://$PROJECT_DIR$/Wearable/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/debug/com/example/android/wearable/timetracker/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wearable/proguard-rules.pro">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_item_layout.xml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/servertransaction/LaunchActivityItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -309,6 +685,9 @@
       <find>remove</find>
       <find>CURRENT_PROJECT</find>
       <find>project_picker</find>
+      <find>speed</find>
+      <find>speedtracker</find>
+      <find>Current</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -322,18 +701,21 @@
       <list>
         <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.java" />
         <option value="$PROJECT_DIR$/Wearable/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml" />
-        <option value="$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml" />
         <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java" />
         <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/ProjectPickerLayout.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/WearableMainActivity.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerListAdapter.java" />
+        <option value="$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ProjectPickerActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="362" />
-    <option name="y" value="23" />
-    <option name="width" value="912" />
-    <option name="height" value="777" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -341,6 +723,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -357,31 +741,14 @@
               <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
               <item name="Wearable" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="speedtracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="timetracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
               <item name="Wearable" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="speedtracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="timetracker" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Wearable" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Wearable" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Wearable" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="time-tracker-wearos" type="1abcf292:AndroidViewProjectNode" />
@@ -391,8 +758,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,6 +893,9 @@
       </method>
     </configuration>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -542,12 +910,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="23" width="912" height="777" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.30684328" visible="true" weight="0.28735632" />
-      <window_info id="Structure" order="2" sideWeight="0.6931567" side_tool="true" visible="true" weight="0.28735632" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.60081464" visible="true" weight="0.40549272" />
+      <window_info id="Structure" order="2" sideWeight="0.39918533" side_tool="true" visible="true" weight="0.40549272" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -555,15 +923,15 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.32846716" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33868614" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33868614" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32846716" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32739726" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.37671232" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.37810218" />
+      <window_info anchor="bottom" id="Find" order="9" visible="true" weight="0.37810218" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -571,18 +939,6 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Preview" order="5" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java</url>
-          <line>214</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -657,12 +1013,6 @@ d.getTime();</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/widget/TextView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -789,13 +1139,6 @@ d.getTime();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/SpeedPickerListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ceb81553a8d4d1147c847656f2ca2121/recyclerview-1.0.0/jars/classes.jar!/androidx/recyclerview/widget/RecyclerView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -834,13 +1177,6 @@ d.getTime();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ui/SpeedPickerLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -862,31 +1198,9 @@ d.getTime();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_item_layout.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable/test.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable/test.xml" />
     <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/drawable/settings.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_activity.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -901,16 +1215,6 @@ d.getTime();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/ProjectPickerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -918,19 +1222,110 @@ d.getTime();</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/speedtracker/WearableMainActivity.java">
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/project_picker_activity.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/main_activity.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/res/layout/speed_picker_item_layout.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/wearable/timetracker/PhoneMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/build/generated/source/buildConfig/debug/com/example/android/wearable/timetracker/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/WearableMainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="75" column="109" selection-start-line="75" selection-start-column="109" selection-end-line="75" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ui/ProjectPickerListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wearable/src/main/java/com/example/android/wearable/timetracker/ProjectPickerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding>
-            <element signature="e#6357#7224#0" expanded="true" />
-            <element signature="e#7223#7224#0" expanded="true" />
-            <element signature="e#7824#8723#0" expanded="true" />
-            <element signature="e#8427#8606#0" expanded="true" />
-            <element signature="e#8605#8606#0" expanded="true" />
-            <element signature="e#8722#8723#0" expanded="true" />
-            <element signature="e#8875#9062#0" expanded="true" />
-            <element signature="e#9061#9062#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

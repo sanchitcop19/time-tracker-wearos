@@ -132,12 +132,12 @@
         "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/animator-v21_circular_image_button_anim.xml.flat",
-        "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3b41686acc110f80ab2137ca56a22122/jetified-wearable-2.4.0/res/animator-v21/circular_image_button_anim.xml"
-    },
-    {
         "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/layout-v21_accept_deny_dialog.xml.flat",
         "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3b41686acc110f80ab2137ca56a22122/jetified-wearable-2.4.0/res/layout-v21/accept_deny_dialog.xml"
+    },
+    {
+        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/animator-v21_circular_image_button_anim.xml.flat",
+        "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3b41686acc110f80ab2137ca56a22122/jetified-wearable-2.4.0/res/animator-v21/circular_image_button_anim.xml"
     },
     {
         "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_full_cancel.png.flat",
@@ -564,12 +564,12 @@
         "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/anim_generic_confirmation_animation_interpolator_3.xml.flat",
-        "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3febd05bc23d811b160d90031d35eb7b/wear-1.0.0/res/anim/generic_confirmation_animation_interpolator_3.xml"
+        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/layout_project_picker_activity.xml.flat",
+        "source": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/res/layout/project_picker_activity.xml"
     },
     {
-        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/layout_speed_picker_activity.xml.flat",
-        "source": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/res/layout/speed_picker_activity.xml"
+        "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/anim_generic_confirmation_animation_interpolator_3.xml.flat",
+        "source": "/Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/3febd05bc23d811b160d90031d35eb7b/wear-1.0.0/res/anim/generic_confirmation_animation_interpolator_3.xml"
     },
     {
         "merged": "/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/build/intermediates/res/merged/debug/layout_navigation_drawer_item_view.xml.flat",

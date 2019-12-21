@@ -1,36 +1,36 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.android.wearable.speedtracker.common.test" >
+3    package="com.example.android.wearable.timetracker.common.test" >
 4
 5    <uses-sdk
-5-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:5:5-74
+5-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:5:5-74
 6        android:minSdkVersion="18"
-6-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:5:15-41
+6-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:5:15-41
 7        android:targetSdkVersion="28" />
-7-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:5:42-71
+7-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:11:5-15:103
+9-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:11:5-15:102
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:11:22-75
+10-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:11:22-75
 11        android:functionalTest="false"
-11-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:14:22-52
+11-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:13:22-53
-13        android:label="Tests for com.example.android.wearable.speedtracker.common.test"
-13-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:15:22-101
-14        android:targetPackage="com.example.android.wearable.speedtracker.common.test" />
-14-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:12:22-99
+12-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:13:22-53
+13        android:label="Tests for com.example.android.wearable.timetracker.common.test"
+13-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:15:22-100
+14        android:targetPackage="com.example.android.wearable.timetracker.common.test" />
+14-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:12:22-98
 15
 16    <application
-16-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:7:5-9:19
+16-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:7:5-9:19
 17        android:allowBackup="true"
 17-->[__tested_artifact__::Shared] /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:18-44
 18        android:debuggable="true" >
-18-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:7:18-43
+18-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:8:9-60
-19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6776610440249566922.xml:8:23-57
+19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:8:9-60
+19-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Shared/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger7774523789363647511.xml:8:23-57
 20    </application>
 21
 22</manifest>

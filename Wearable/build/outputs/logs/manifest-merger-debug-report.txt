@@ -44,7 +44,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.0] /Users/SanchitBat
 INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:17:1-56:12
 INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:17:1-56:12
 	package
-		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:18:11-62
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:18:11-61
 	android:versionName
 		INJECTED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml
 		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:17:1-56:12
@@ -129,12 +129,12 @@ MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Sanchi
 		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:39:20-73
 	android:name
 		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:38:20-65
-activity#com.example.android.wearable.speedtracker.WearableMainActivity
+activity#com.example.android.wearable.timetracker.WearableMainActivity
 ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:40:9-47:20
 	android:label
 		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:42:13-45
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:41:13-89
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:43:13-46:29
 action#android.intent.action.MAIN
@@ -145,10 +145,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:45:17-76
 	android:name
 		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:45:27-74
-activity#com.example.android.wearable.speedtracker.ProjectPickerActivity
+activity#com.example.android.wearable.timetracker.ProjectPickerActivity
 ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:48:9-53:20
 	android:name
-		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:49:13-91
+		ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:49:13-90
 intent-filter#action:name:android.intent.action.MAIN
 ADDED from /Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:50:13-52:29
 uses-sdk

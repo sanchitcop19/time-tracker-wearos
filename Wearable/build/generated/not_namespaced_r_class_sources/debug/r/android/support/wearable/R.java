@@ -538,14 +538,14 @@ public final class R {
         public static final int notification_template_part_chronometer = 0x7f0d0017;
         public static final int notification_template_part_time = 0x7f0d0018;
         public static final int overlay_confirmation = 0x7f0d0019;
-        public static final int single_page_nav_drawer_1_item = 0x7f0d001a;
-        public static final int single_page_nav_drawer_2_item = 0x7f0d001b;
-        public static final int single_page_nav_drawer_3_item = 0x7f0d001c;
-        public static final int single_page_nav_drawer_4_item = 0x7f0d001d;
-        public static final int single_page_nav_drawer_5_item = 0x7f0d001e;
-        public static final int single_page_nav_drawer_6_item = 0x7f0d001f;
-        public static final int single_page_nav_drawer_7_item = 0x7f0d0020;
-        public static final int single_page_nav_drawer_peek_view = 0x7f0d0021;
+        public static final int single_page_nav_drawer_1_item = 0x7f0d001b;
+        public static final int single_page_nav_drawer_2_item = 0x7f0d001c;
+        public static final int single_page_nav_drawer_3_item = 0x7f0d001d;
+        public static final int single_page_nav_drawer_4_item = 0x7f0d001e;
+        public static final int single_page_nav_drawer_5_item = 0x7f0d001f;
+        public static final int single_page_nav_drawer_6_item = 0x7f0d0020;
+        public static final int single_page_nav_drawer_7_item = 0x7f0d0021;
+        public static final int single_page_nav_drawer_peek_view = 0x7f0d0022;
         public static final int watch_card_content = 0x7f0d0024;
         public static final int wearable_drawer_view = 0x7f0d0025;
     }

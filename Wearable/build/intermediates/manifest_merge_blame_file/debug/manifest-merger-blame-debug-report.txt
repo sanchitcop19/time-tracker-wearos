@@ -15,7 +15,7 @@
 15     limitations under the License.
 16-->
 17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-18    package="com.example.android.wearable.speedtracker"
+18    package="com.example.android.wearable.timetracker"
 19    android:versionCode="1"
 20    android:versionName="1.0" >
 21
@@ -80,8 +80,8 @@
 54
 55        <activity
 55-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:40:9-47:20
-56            android:name="com.example.android.wearable.speedtracker.WearableMainActivity"
-56-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:41:13-49
+56            android:name="com.example.android.wearable.timetracker.WearableMainActivity"
+56-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:41:13-89
 57            android:label="@string/app_name" >
 57-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:42:13-45
 58            <intent-filter>
@@ -95,9 +95,9 @@
 61-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:45:27-74
 62            </intent-filter>
 63        </activity>
-64        <activity android:name="com.example.android.wearable.speedtracker.ProjectPickerActivity" >
+64        <activity android:name="com.example.android.wearable.timetracker.ProjectPickerActivity" >
 64-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:48:9-53:20
-64-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:49:13-91
+64-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:49:13-90
 65            <intent-filter>
 65-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:50:13-52:29
 66                <action android:name="android.intent.action.MAIN" />
