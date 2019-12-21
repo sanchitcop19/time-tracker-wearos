@@ -641,6 +641,8 @@ id fit
 id forever
 id frame_layout
 id gone
+id guideline
+id guideline2
 id header
 id height
 id icon
@@ -670,6 +672,7 @@ id packed
 id parent
 id parentPanel
 id percent
+id relativeLayout
 id right
 id right_icon
 id right_side
@@ -894,7 +897,6 @@ string not_available
 string ok
 string permission_rationale
 string project
-string project_picker
 string speed_format
 string speed_label
 string status_bar_notification_info_overflow

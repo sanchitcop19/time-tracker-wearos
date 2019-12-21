@@ -17,7 +17,9 @@
 package com.example.android.wearable.speedtracker;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.opengl.Visibility;
 import android.os.Bundle;
 import android.support.wearable.view.WearableListView;
@@ -37,6 +39,8 @@ public class ProjectPickerActivity extends Activity implements WearableListView.
     public static final String CURRENT_PROJECT =
             "com.example.android.wearable.speedtracker.extra.CURRENT_PROJECT";
 
+    private SharedPreferences sharedPreferences;
+
     /* Speeds, in mph, that will be shown on the list */
     private ArrayList<String> projects;
 
@@ -45,8 +49,12 @@ public class ProjectPickerActivity extends Activity implements WearableListView.
         super.onCreate(savedInstanceState);
         setContentView(R.layout.speed_picker_activity);
 
+        sharedPreferences = this.getPreferences(Context.MODE_PRIVATE);
+
         projects = new ArrayList<>();
-        projects.add("CSE410");
+        addProject("CSE410");
+        addProject("Leetcode");
+        addProject("Productiv");
 
         if (projects.isEmpty()){
             View add = findViewById(R.id.add);
@@ -60,6 +68,7 @@ public class ProjectPickerActivity extends Activity implements WearableListView.
         }
 
         final TextView header = (TextView) findViewById(R.id.header);
+        header.setText("(Current)\n" + sharedPreferences.getString(CURRENT_PROJECT, "Pick Project"));
 
         // Get the list component from the layout of the activity
         WearableListView listView = (WearableListView) findViewById(R.id.wearable_list);
@@ -100,16 +109,25 @@ public class ProjectPickerActivity extends Activity implements WearableListView.
 
         if (WearableMainActivity.is_tracking){
             System.err.println("Do not change the activity while tracking one");
+            finish();
             return;
         }
 
         String project = projects.get(viewHolder.getPosition());
+
+        TextView project_view = (TextView) findViewById(R.id.header);
+        project_view.setText("(Current)\n" + project);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(CURRENT_PROJECT, project);
+        editor.apply();
+
 
         Intent resultIntent = new Intent(Intent.ACTION_PICK);
         resultIntent.putExtra(CURRENT_PROJECT, project);
         setResult(RESULT_OK, resultIntent);
 
         finish();
+
     }
 
     public void addProject(String project){

@@ -24,8 +24,7 @@
     <RelativeLayout
         android:id="@+id/frame_layout"
         android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        app:boxedEdges="left|bottom|right">
+        android:layout_width="match_parent">
 
 
         <android.support.wearable.view.WearableListView
@@ -33,16 +32,17 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent">
         </android.support.wearable.view.WearableListView>
+
         <TextView
             android:id="@+id/header"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:gravity="bottom"
-            android:textSize="20sp"
-            android:fontFamily="sans-serif-light"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"
-            android:text="@string/project_picker"/>
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="bottom"
+            android:text="Pick Project"
+            android:textSize="20sp" />
 
         <ImageButton
             android:id="@+id/add"

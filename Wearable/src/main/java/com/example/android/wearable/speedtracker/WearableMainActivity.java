@@ -195,6 +195,7 @@ public class WearableMainActivity extends FragmentActivity implements
                     editor.apply();
                     editor.remove("");
                     editor.remove("time");
+                    editor.commit();
                     // stop tracking
                     reset();
 
@@ -229,11 +230,16 @@ public class WearableMainActivity extends FragmentActivity implements
 
         changeButtonText("Start");
 
+        TextView tv = findViewById(R.id.current_time);
+        tv.setText("00:00");
+
+
     }
 
     private void startTracking() {
 
         is_tracking = true;
+        tracking.setVisibility(View.VISIBLE);
 
         timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -241,7 +247,7 @@ public class WearableMainActivity extends FragmentActivity implements
             @Override
             public void run() {
 
-                trackedTime.add(Calendar.SECOND, 1);
+                trackedTime.add(Calendar.MINUTE, 1);
                 final Date next = trackedTime.getTime();
                 SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
                 final String next_time = formatter.format(next);
@@ -250,19 +256,11 @@ public class WearableMainActivity extends FragmentActivity implements
                     @Override
                     public void run() {
                         timeView.setText(next_time);
-                        if (blink){
-                            tracking.setVisibility(View.VISIBLE);
-                            blink = false;
-                        }
-                        else{
-                            tracking.setVisibility(View.INVISIBLE);
-                            blink = true;
-                        }
                     }
                 });
             }
 
-        },0,1000);//Update text every second
+        },60000,60000);//Update text every second
 
         changeButtonText("Stop");
 
