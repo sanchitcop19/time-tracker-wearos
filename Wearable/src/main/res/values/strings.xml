@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="app_name">Speed Tracker</string>
+    <string name="app_name">Time Tracker</string>
     <string name="lat_label">Latitude:</string>
     <string name="not_available">Not Available</string>
     <string name="lon_label">Longitude:</string>
@@ -25,9 +25,7 @@
     <string name="project">Project</string>
 
     <string name="enable_disable_gps_label">Enable Location Permission?</string>
-
     <string name="mph">mph</string>
-    <string name="gps_not_available">No GPS on device. Will use phone GPS when available.</string>
     <string name="ok">OK</string>
     <string name="speed_format">%.0f</string>
 

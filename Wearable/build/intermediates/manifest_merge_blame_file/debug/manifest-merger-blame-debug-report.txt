@@ -43,7 +43,7 @@
 32-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:23:22-65
 33
 34    <application
-34-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:25:5-54:19
+34-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:25:5-57:19
 35        android:allowBackup="true"
 35-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:26:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -105,14 +105,18 @@
 66-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:44:25-66
 67            </intent-filter>
 68        </activity>
-69        <activity
-69-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-70-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-71            android:exported="false"
-71-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-72-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-73    </application>
-74
-75</manifest>
+69        <activity android:name="com.example.android.wearable.timetracker.StatsActivity2" >
+69-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:54:9-56:20
+69-->/Users/SanchitBatra/Desktop/Projects/time-tracker-wearos/Wearable/src/main/AndroidManifest.xml:54:19-49
+70        </activity>
+71        <activity
+71-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:16.0.1] /Users/SanchitBatra/.gradle/caches/transforms-2/files-2.1/6fab1d3570717687685d634c6709738c/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+75    </application>
+76
+77</manifest>

@@ -455,38 +455,38 @@ public final class R {
         public static final int spacer = 0x7f0a0055;
         public static final int square = 0x7f0a0059;
         public static final int start = 0x7f0a005b;
-        public static final int status_bar_latest_event_content = 0x7f0a005c;
-        public static final int tag_transition_group = 0x7f0a005d;
-        public static final int tag_unhandled_key_event_manager = 0x7f0a005e;
-        public static final int tag_unhandled_key_listeners = 0x7f0a005f;
-        public static final int text = 0x7f0a0060;
-        public static final int text2 = 0x7f0a0061;
-        public static final int time = 0x7f0a0062;
-        public static final int title = 0x7f0a0063;
-        public static final int top = 0x7f0a0064;
-        public static final int wearable_support_action_drawer_expand_icon = 0x7f0a0066;
-        public static final int wearable_support_action_drawer_item_icon = 0x7f0a0067;
-        public static final int wearable_support_action_drawer_item_text = 0x7f0a0068;
-        public static final int wearable_support_action_drawer_peek_action_icon = 0x7f0a0069;
-        public static final int wearable_support_action_drawer_title = 0x7f0a006a;
-        public static final int wearable_support_confirmation_overlay_image = 0x7f0a006b;
-        public static final int wearable_support_confirmation_overlay_message = 0x7f0a006c;
-        public static final int wearable_support_drawer_view_peek_container = 0x7f0a006d;
-        public static final int wearable_support_drawer_view_peek_icon = 0x7f0a006e;
-        public static final int wearable_support_nav_drawer_icon_0 = 0x7f0a006f;
-        public static final int wearable_support_nav_drawer_icon_1 = 0x7f0a0070;
-        public static final int wearable_support_nav_drawer_icon_2 = 0x7f0a0071;
-        public static final int wearable_support_nav_drawer_icon_3 = 0x7f0a0072;
-        public static final int wearable_support_nav_drawer_icon_4 = 0x7f0a0073;
-        public static final int wearable_support_nav_drawer_icon_5 = 0x7f0a0074;
-        public static final int wearable_support_nav_drawer_icon_6 = 0x7f0a0075;
-        public static final int wearable_support_nav_drawer_text = 0x7f0a0076;
-        public static final int wearable_support_navigation_drawer_item_icon = 0x7f0a0077;
-        public static final int wearable_support_navigation_drawer_item_text = 0x7f0a0078;
-        public static final int wearable_support_navigation_drawer_page_indicator = 0x7f0a0079;
-        public static final int wearable_support_navigation_drawer_view_pager = 0x7f0a007a;
-        public static final int wearable_support_overlay_confirmation = 0x7f0a007b;
-        public static final int width = 0x7f0a007d;
+        public static final int status_bar_latest_event_content = 0x7f0a005f;
+        public static final int tag_transition_group = 0x7f0a0060;
+        public static final int tag_unhandled_key_event_manager = 0x7f0a0061;
+        public static final int tag_unhandled_key_listeners = 0x7f0a0062;
+        public static final int text = 0x7f0a0063;
+        public static final int text2 = 0x7f0a0064;
+        public static final int time = 0x7f0a0065;
+        public static final int title = 0x7f0a0066;
+        public static final int top = 0x7f0a0067;
+        public static final int wearable_support_action_drawer_expand_icon = 0x7f0a0069;
+        public static final int wearable_support_action_drawer_item_icon = 0x7f0a006a;
+        public static final int wearable_support_action_drawer_item_text = 0x7f0a006b;
+        public static final int wearable_support_action_drawer_peek_action_icon = 0x7f0a006c;
+        public static final int wearable_support_action_drawer_title = 0x7f0a006d;
+        public static final int wearable_support_confirmation_overlay_image = 0x7f0a006e;
+        public static final int wearable_support_confirmation_overlay_message = 0x7f0a006f;
+        public static final int wearable_support_drawer_view_peek_container = 0x7f0a0070;
+        public static final int wearable_support_drawer_view_peek_icon = 0x7f0a0071;
+        public static final int wearable_support_nav_drawer_icon_0 = 0x7f0a0072;
+        public static final int wearable_support_nav_drawer_icon_1 = 0x7f0a0073;
+        public static final int wearable_support_nav_drawer_icon_2 = 0x7f0a0074;
+        public static final int wearable_support_nav_drawer_icon_3 = 0x7f0a0075;
+        public static final int wearable_support_nav_drawer_icon_4 = 0x7f0a0076;
+        public static final int wearable_support_nav_drawer_icon_5 = 0x7f0a0077;
+        public static final int wearable_support_nav_drawer_icon_6 = 0x7f0a0078;
+        public static final int wearable_support_nav_drawer_text = 0x7f0a0079;
+        public static final int wearable_support_navigation_drawer_item_icon = 0x7f0a007a;
+        public static final int wearable_support_navigation_drawer_item_text = 0x7f0a007b;
+        public static final int wearable_support_navigation_drawer_page_indicator = 0x7f0a007c;
+        public static final int wearable_support_navigation_drawer_view_pager = 0x7f0a007d;
+        public static final int wearable_support_overlay_confirmation = 0x7f0a007e;
+        public static final int width = 0x7f0a0080;
     }
     public static final class integer {
         private integer() {}
@@ -546,8 +546,8 @@ public final class R {
         public static final int single_page_nav_drawer_6_item = 0x7f0d0020;
         public static final int single_page_nav_drawer_7_item = 0x7f0d0021;
         public static final int single_page_nav_drawer_peek_view = 0x7f0d0022;
-        public static final int watch_card_content = 0x7f0d0024;
-        public static final int wearable_drawer_view = 0x7f0d0025;
+        public static final int watch_card_content = 0x7f0d0027;
+        public static final int wearable_drawer_view = 0x7f0d0028;
     }
     public static final class plurals {
         private plurals() {}
@@ -599,11 +599,11 @@ public final class R {
         public static final int dismiss_overlay_button_label = 0x7f0f0036;
         public static final int generic_cancel = 0x7f0f0038;
         public static final int generic_yes = 0x7f0f0039;
-        public static final int navigation_drawer_content_description = 0x7f0f003e;
-        public static final int status_bar_notification_info_overflow = 0x7f0f0045;
-        public static final int time_difference_now = 0x7f0f0046;
-        public static final int time_difference_short_days_and_hours = 0x7f0f0047;
-        public static final int time_difference_short_hours_and_minutes = 0x7f0f0048;
+        public static final int navigation_drawer_content_description = 0x7f0f003d;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0044;
+        public static final int time_difference_now = 0x7f0f0045;
+        public static final int time_difference_short_days_and_hours = 0x7f0f0046;
+        public static final int time_difference_short_hours_and_minutes = 0x7f0f0047;
     }
     public static final class style {
         private style() {}

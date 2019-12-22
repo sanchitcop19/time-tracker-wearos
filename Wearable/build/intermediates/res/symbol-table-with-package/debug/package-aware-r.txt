@@ -687,6 +687,9 @@ id spread_inside
 id square
 id standard
 id start
+id stat
+id stat_header
+id stats
 id status_bar_latest_event_content
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -806,6 +809,9 @@ layout single_page_nav_drawer_6_item
 layout single_page_nav_drawer_7_item
 layout single_page_nav_drawer_peek_view
 layout speed_picker_item_layout
+layout stats
+layout stats_list
+layout stats_list_2
 layout watch_card_content
 layout wearable_drawer_view
 layout ws_action_drawer_item_view
@@ -888,7 +894,6 @@ string dismiss_overlay_button_label
 string enable_disable_gps_label
 string generic_cancel
 string generic_yes
-string gps_not_available
 string lat_label
 string lon_label
 string mph

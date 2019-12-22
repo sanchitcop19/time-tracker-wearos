@@ -24,6 +24,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -140,36 +141,8 @@ public class WearableMainActivity extends FragmentActivity implements
         // Enables Ambient mode.
         mAmbientController = AmbientModeSupport.attach(this);
 
-        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        sharedPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         final SharedPreferences.Editor editor = sharedPref.edit();
-
-
-        /*
-         * If this hardware doesn't support GPS, we warn the user. Note that when such device is
-         * connected to a phone with GPS capabilities, the framework automatically routes the
-         * location requests from the phone. However, if the phone becomes disconnected and the
-         * wearable doesn't support GPS, no location is recorded until the phone is reconnected.
-         */
-        if (!hasGps()) {
-            Log.w(TAG, "This hardware doesn't have GPS, so we warn user.");
-            new AlertDialog.Builder(this)
-                    .setMessage(getString(R.string.gps_not_available))
-                    .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int id) {
-                            dialog.cancel();
-                        }
-                    })
-                    .setOnDismissListener(new DialogInterface.OnDismissListener() {
-                        @Override
-                        public void onDismiss(DialogInterface dialog) {
-                            dialog.cancel();
-                        }
-                    })
-                    .setCancelable(false)
-                    .create()
-                    .show();
-        }
 
         trackedTime = Calendar.getInstance();
         reset();
@@ -181,6 +154,10 @@ public class WearableMainActivity extends FragmentActivity implements
             @Override
             public void onClick(View view){
                 if (!is_tracking){
+                    // Check if the current project is set
+                    if (sharedPref.getString(CURRENT_PROJECT, "") == ""){
+                        return;
+                    }
                     // start tracking
                     startTracking();
                 }
@@ -200,6 +177,9 @@ public class WearableMainActivity extends FragmentActivity implements
         });
 
         setupViews();
+
+        Intent intent = new Intent(this, StatsActivity2.class);
+        startActivity(intent);
 
 
 
